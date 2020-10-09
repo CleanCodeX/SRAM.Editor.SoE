@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <Version>0.1.0</Version>
+    <Company>CleanCodeX</Company>
+    <Authors>CleanCodeX</Authors>
+	  <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+	  <Description>This is an very early state of an SRAM editor for SoE, containing no UI yet.</Description>
+	  <RepositoryUrl>https://github.com/CleanCodeX/SramEditor.SoE</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/CleanCodeX</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CCX.SramFormat.SoE" Version="0.2.0" />
+  </ItemGroup>
+
+</Project>
